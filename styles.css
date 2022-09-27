@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  overflow-x: hidden;
+  background-color: whitesmoke;
+}
+
+.navbar {
+  height: 50px;
+  background-color: lightgreen;
+  color: rgb(143, 64, 64);
+}
+
+.navbar span {
+  font-size: 32px;
+  font-weight: 100;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+
+.navbar .menu {
+  position: absolute;
+  right: 40px;
+  top: 20px;
+}
+
+.navbar .menu a {
+  color: rgb(143, 64, 64);
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+main {
+  padding: 100px;
+}
+
+/* 
+.parent {
+  border-width: 1px;
+  border-style: solid;
+  border-color: pink;
+  height: 300px;
+  position: relative;
+}
+
+.parent .child {
+  width: 50px;
+  height: 50px;
+  background-color: blueviolet;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.493);
+}
+
+.parent .c1 {
+  background-color: yellowgreen;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  z-index: -1;
+}
+
+.parent .c2 {
+  background-color: aquamarine;
+}
+
+.parent .c3 {
+  background-color: blanchedalmond;
+} */
+
+.hero {
+  position: relative;
+  height: 500px;
+  margin-top: 10px;
+}
+
+h1 {
+  position: absolute;
+  color: azure;
+  left: 10px;
+  text-shadow: 4px 4px 1px black;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
